@@ -17,6 +17,7 @@
         android:text="@string/valor_em_real" />
     
     <EditText
+        android:id="@+id/edit_value"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/digite_o_valor"/>
@@ -27,6 +28,7 @@
         android:text="@string/valor_em_dolar" />
 
     <TextView
+        android:id="@+id/text_dollar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/valor_em_dolar" />
@@ -37,11 +39,13 @@
         android:text="@string/valor_em_euro" />
 
     <TextView
+        android:id="@+id/text_euro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/valor_em_euro" />
 
     <Button
+        android:id="@+id/button_calculate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/calcular"/>
